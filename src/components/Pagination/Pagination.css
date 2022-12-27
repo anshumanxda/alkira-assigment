@@ -1,0 +1,9 @@
+.pagination-container {
+  position: absolute;
+  bottom: -5rem;
+  right: 0rem;
+}
+
+.pagination-list.active .page-link {
+  background-color: #074684;
+}

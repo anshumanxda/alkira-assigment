@@ -1,0 +1,13 @@
+.home-container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.home-container .title {
+  color: #074684;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-inline: 1rem;
+}

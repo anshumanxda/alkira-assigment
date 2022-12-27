@@ -1,0 +1,25 @@
+.search-input-container {
+  max-width: 600px;
+  margin: 0 1rem;
+  margin-top: 20px;
+  position: relative;
+}
+
+.search-input-container .search-input {
+  border: 2px solid #074684;
+  padding-left: 35px;
+  box-shadow: none !important;
+}
+
+.search-input-container .search-input:focus {
+  border: 2px solid #074684;
+}
+
+.search-input-container .search-icon {
+  position: absolute;
+  top: 12px;
+  width: 18px;
+  height: 18px;
+  left: 10px;
+  z-index: 99;
+}

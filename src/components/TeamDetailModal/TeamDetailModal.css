@@ -1,0 +1,58 @@
+.team-detail-modal.modal-dialog {
+  width: 1000px;
+  margin-top: 0px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  transform: translateX(100px, 0);
+}
+
+.modal-body {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-5 {
+  gap: 5rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.modal-header {
+  background-color: #d6dfe4;
+}
+
+.modal-header,
+.modal-body,
+.modal-content {
+  border-radius: 0px !important;
+}
+
+.modal-title {
+  margin-left: 1rem;
+}
+
+.details {
+  margin-left: 1rem;
+}
+
+.team-details p {
+  margin-top: 1rem;
+}
+
+.game-details h6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .team-detail-modal.modal-dialog {
+    width: 100%;
+  }
+}
