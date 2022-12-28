@@ -5,3 +5,5 @@ Steps to install:
 3. run `npm install`
 4. run `npm run dev`
 5. now check the terminal for local url
+
+# Deployed on Netlify - https://alkira-assignment.netlify.app/
